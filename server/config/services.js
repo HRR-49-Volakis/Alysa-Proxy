@@ -40,25 +40,57 @@
   }
 */
 
+// taylor - http://54.172.160.204:3001/ service 1 /product_scroll/*
+
+// micheal - http://18.217.57.74:3001/ service 2
+
+// frans - http://3.133.118.32:3001/ service 3
+
+// john - http://18.224.65.20:3004/ service 4
+
+
+// module.exports = {
+//   service1: {
+//     api: '/product_scroll/',
+//     url: 'http://54.172.160.204:3001/',
+//     bundle: 'bundle.js',
+//   },
+//   service2: {
+//     api: '/main',
+//     url: 'http://18.217.57.74:3001/',
+//     bundle: 'bundle.js',
+//   },
+//   service3: {
+//     api: '/Bag',
+//     url: 'http://3.133.118.32:3001/',
+//     bundle: 'bundle.js',
+//   },
+//   service4: {
+//     api: '/*',
+//     url: 'http://18.224.65.20:3004/',
+//     bundle: 'bundle.js',
+//   },
+// };
+
 module.exports = {
-  service1: {
-    api: '/*',
-    url: 'http://54.172.160.204:3001',
-    bundle: 'bundle.js',
-  },
-  service2: {
-    api: '/*,',
-    url: 'http://localhost:3002',
-    bundle: 'bundle.js',
-  },
-  service3: {
-    api: 'FIX_ME',
-    url: 'http://localhost:3003',
-    bundle: 'app.js',
-  },
-  service4: {
-    api: 'FIX_ME',
-    url: 'http://localhost:3004',
-    bundle: 'app.js',
-  },
-};
+    service1: {
+      api: '/product_scroller',
+      url: 'http://54.172.160.204:3001/', // taylor
+      bundle: 'bundle.js',
+    },
+    service2: {
+      api: '/main',
+      url: 'http://18.217.57.74:3001/', // michael
+      bundle: 'bundle.js',
+    },
+    service3: {
+      api: '/Bag',
+      url: 'http://2.14.36.65:3001/', // frans
+      bundle: 'bundle.js',
+    },
+    service4: {
+      api: '/*',
+      url: 'http://18.224.65.20:3004/', // john
+      bundle: 'bundle.js',
+    },
+  };
