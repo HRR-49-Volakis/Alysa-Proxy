@@ -52,7 +52,7 @@
 // module.exports = {
 //   service1: {
 //     api: '/product_scroll/',
-//     url: 'http://54.172.160.204:3001/',
+//     url: 'http://34.229.55.54:3001/',
 //     bundle: 'bundle.js',
 //   },
 //   service2: {
@@ -75,17 +75,17 @@
 module.exports = {
     service1: {
       api: '/product_scroller',
-      url: 'http://54.172.160.204:3001/', // taylor
+      url: 'http://34.229.55.54:3001/', // taylor
       bundle: 'bundle.js',
     },
     service2: {
       api: '/main',
-      url: 'http://18.217.57.74:3001/', // michael
+      url: 'http://18.224.65.20:3004/', // michael
       bundle: 'bundle.js',
     },
     service3: {
       api: '/Bag',
-      url: 'http://2.14.36.65:3001/', // frans
+      url: 'http://18.224.65.20:3004/', // frans
       bundle: 'bundle.js',
     },
     service4: {
