@@ -87,11 +87,11 @@ module.exports = {
     },
     service3: {
       api: '/Bag',
-      url: 'http://3.133.118.32:3001/', // frans
+      url: 'http://52.14.36.65:3001/', // frans
       bundle: 'bundle.js',
     },
     service4: {
-      api: '/',
+      api: '/*',
       url: 'http://18.224.65.20:3004/', // john
       bundle: 'bundle.js',
     },
