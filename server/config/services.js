@@ -77,7 +77,7 @@
 module.exports = {
     service1: {
       api: '/product_scroller',
-      url: 'http://34.229.55.54:3001/', // taylor
+      url: 'http://100.26.235.24:3001/', // taylor
       bundle: 'bundle.js',
     },
     service2: {
@@ -91,7 +91,7 @@ module.exports = {
       bundle: 'bundle.js',
     },
     service4: {
-      api: '/*',
+      api: '/',
       url: 'http://18.224.65.20:3004/', // john
       bundle: 'bundle.js',
     },
