@@ -48,6 +48,8 @@
 
 // john - http://18.224.65.20:3004/ service 4
 
+//proxy on aws - http://3.86.35.244:3000/
+
 
 // module.exports = {
 //   service1: {
@@ -80,12 +82,12 @@ module.exports = {
     },
     service2: {
       api: '/main',
-      url: 'http://18.224.65.20:3004/', // michael
+      url: 'http://18.217.57.74:3001/', // michael
       bundle: 'bundle.js',
     },
     service3: {
       api: '/Bag',
-      url: 'http://18.224.65.20:3004/', // frans
+      url: 'http://3.133.118.32:3001/', // frans
       bundle: 'bundle.js',
     },
     service4: {
