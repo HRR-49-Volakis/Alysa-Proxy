@@ -1,0 +1,38 @@
+config:
+  target: "http://localhost:3000"
+  phases:
+    - duration: 60
+      arrivalRate: 40
+  variables:
+    id:
+      - "790"
+      - "170800"
+      - "25"
+      - "8750000"
+      - "990000"
+scenarios:
+  - name: "GET by collection"
+    flow:
+      - loop:
+        - get:
+            url: "/api/product_scroller/products/similar/id={{ id }}"
+        count: 5
+  # - name: "POST"
+  #   flow:
+  #     - loop:
+  #       - post:
+  #           url: "/api/product_scroller/product"
+  #           json:
+  #             product_name: "TEST product"
+  #             image_one_url: "TEST url"
+  #             image_two_url: "TEST url2"
+  #             page_url: "TEST page url"
+  #             price: 90.30
+  #             hearted: "f"
+  #             brief_description: "short description for test"
+  #             collection_name: "TEST TEST TEST"
+  #       count: 5
+
+
+
+
