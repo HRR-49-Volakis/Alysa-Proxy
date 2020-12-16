@@ -2,3 +2,5 @@ taylor-proxy2.pem
 node_modules
 newrelic.js
 newrelic_agent.log
+sdc-proxy.pem
+login.sh
